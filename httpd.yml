@@ -1,6 +1,5 @@
 ---
-- name: test yaml
-  hosts: all
+- name: install httpd
   tasks:
     - name: yum make cache
       shell: yum make cache
