@@ -3,7 +3,7 @@
   hosts: all
   tasks:
     - name: yum make cache
-      shell: yum make cache
+      shell: yum makecache
     - name: yum install Apache
       yum:
         name: httpd
